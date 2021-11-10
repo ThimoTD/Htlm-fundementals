@@ -1,0 +1,60 @@
+.color {
+  flex-basis: calc(100% / 3);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.color-1 {
+  background-color: yellow;
+}
+
+.color-2 {
+  background-color: red;
+}
+
+.color-3 {
+  background-color: blue;
+}
+
+.color-4 {
+  background-color: green;
+}
+
+.color-5 {
+  background-color: aquamarine;
+}
+
+.color-6 {
+  background-color: purple;
+}
+
+.color-7 {
+  background-color: grey;
+}
+
+.color-8 {
+  background-color: pink;
+}
+
+.color-9 {
+  background-color: orange;
+}
+
+.box5 {
+  position: absolute;
+  bottom: 450px;
+}
+
+.box5-2 {
+  position: absolute;
+  bottom: 525px;
+}
+
+.box5-3 {
+  position: absolute;
+  bottom: 375px;
+}
