@@ -1,0 +1,31 @@
+.flex-container {
+  display: flex;
+  height: 800px;
+  width: 1000px;
+  border: 1px solid black;
+}
+.flex-child {
+  border: 1px solid green;
+  justify-self: center;
+  height: 40px;
+  width: 190px;
+  flex-wrap: wrap;
+  text-align: center;
+  line-height: 20px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
