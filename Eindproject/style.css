@@ -1,0 +1,162 @@
+.gallery {
+  display: grid;
+  display: inline-block;
+  margin: 20px 142px;
+  background-color: royalblue;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.imgbox {
+  display: inline-block;
+  margin: 15px 14px;
+  border: 1px solid white;
+}
+
+.navigation {
+  padding: 5px 0 5px 0;
+  text-align: center;
+  line-height: 32px;
+  background-color: white;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+li {
+  display: inline;
+  padding: 0 10px 0 10px;
+  font-size: 16px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+li:hover {
+  color: cadetblue;
+}
+
+.navigation a {
+  text-decoration: none;
+  padding: 8px;
+  font-variant: small-caps;
+  color: black;
+}
+
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 100px;
+  font-size: 70px;
+}
+
+body {
+  background-blend-mode: darken;
+}
+
+.button {
+  align-items: center;
+  border: 5px solid royalblue;
+  padding: 25px 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 46px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  background-color: white;
+}
+
+.button:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.buttonpos {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  margin-top: 140px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: (0);
+  justify-content: center;
+  height: 200px;
+  column-gap: 250px;
+  font-weight: bolder;
+  color: white;
+}
+
+.home1 {
+  font-size: 30px;
+  transform: rotate(23deg);
+}
+
+.home2 {
+  font-size: 30px;
+  transform: rotate(-23deg);
+}
+
+.home3 {
+  font-size: 30px;
+  transform: rotate(23deg);
+}
+
+.infoimg {
+  background-image: url(homepage.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+}
+
+.headinf {
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.infomain {
+  display: grid;
+  justify-content: center;
+  margin-top: 90px;
+  font-size: 46px;
+  color: white;
+  font-weight: bolder;
+}
+
+.infotext {
+  display: grid;
+  justify-content: center;
+  margin-top: 350px;
+  grid-template-columns: repeat(3, 500px);
+  grid-template-rows: 0;
+  margin-left: 100px;
+}
+
+.text1 {
+  color: white;
+  grid-template-columns: 1;
+  font-size: 36px;
+  transform: rotate(23deg);
+}
+
+.text2 {
+  color: white;
+  grid-template-columns: 2;
+  font-size: 36px;
+  transform: rotate(-23deg);
+}
+
+.text3 {
+  color: white;
+  grid-template-columns: 3;
+  font-size: 36px;
+  transform: rotate(23deg);
+}
